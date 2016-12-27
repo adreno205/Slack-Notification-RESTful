@@ -25,4 +25,5 @@ Requirement :
 
 This is My Database Design
 ![Alt text](cineplexModel.png?raw=true "Cineplex Model")
+Thx for DB Suggestion : Anan Sangjan 
 
