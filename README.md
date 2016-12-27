@@ -23,3 +23,6 @@ Requirement :
 - Duration between show time must be > 15 Minutes 
 - ShowTime can't be added if It's already exist or concurrent 
 
+This is My Database Design
+![Alt text](cineplexModel.png?raw=true "Cineplex Model")
+
