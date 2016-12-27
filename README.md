@@ -5,9 +5,11 @@ tutorials : http://spring.io/guides/gs/spring-boot/
 4 APIs 
 
 - Get Method
+
 1.http://localhost:8080/cinema/ > Then Return "This is Default Page"
 
--Post Method 
+- Post Method 
+
 2.http://localhost:8080/cinema/addmovie > add Movie 
 
 3.http://localhost:8080/cinema/addtheatre > add Theatre 
