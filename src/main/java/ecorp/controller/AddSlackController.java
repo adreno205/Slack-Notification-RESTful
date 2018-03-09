@@ -16,6 +16,7 @@ public class AddSlackController {
 
     private static Logger logger = Logger.getLogger(AddSlackController.class);
     //V1 use postObject for send Request
+    @CrossOrigin
     @RequestMapping(value = "/v1/addslack",
                     method = RequestMethod.POST,
                     consumes = MediaType.APPLICATION_JSON_UTF8_VALUE,
@@ -27,6 +28,7 @@ public class AddSlackController {
         return messageService.addSlackNoti(slackRequest);
     }
     //V2 use exchange for send Request
+    @CrossOrigin
     @RequestMapping(value = "/v2/addslack",
             method = RequestMethod.POST,
             consumes = MediaType.APPLICATION_JSON_UTF8_VALUE,
